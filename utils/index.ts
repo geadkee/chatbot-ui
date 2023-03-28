@@ -16,7 +16,7 @@ export const OpenAIStream = async (messages: Message[]) => {
       messages: [
         {
           role: "system",
-          content: `You are a informative symptom checker.`
+          content: `You are a friendly and informative symptom checker, answer as concisely as possible.`
         },
         ...messages
       ],
